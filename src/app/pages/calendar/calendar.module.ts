@@ -7,6 +7,7 @@ import { DatepickerComponent } from './components/datepicker/datepicker.componen
 import { NewFoodRegisterDialogComponent } from './components/new-food-register-dialog/new-food-register-dialog.component';
 import { SharedModule } from '../../shared/shared.module';
 import { CalendarRoutingModule } from './calendar-routing.module';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -24,7 +25,8 @@ import { CalendarRoutingModule } from './calendar-routing.module';
   imports: [
     CommonModule,
     CalendarRoutingModule,
-    SharedModule
+    SharedModule,
+    MatIconModule
   ],
 })
 export class CalendarModule { }

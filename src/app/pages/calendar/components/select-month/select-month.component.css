@@ -1,0 +1,21 @@
+.select-month-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.select-month-container .select-month-icon {
+    font-size: 26px;
+    color: #2E2626;
+}
+
+.select-month-container .selected-month {
+    position: relative;
+    bottom: -2px;
+    color: #2E2626;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px 20px;
+}

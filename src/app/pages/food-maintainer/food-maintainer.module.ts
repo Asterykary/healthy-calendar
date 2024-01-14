@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FoodMaintainerComponent } from './food-maintainer.component';
 import { FoodListComponent } from './components/food-list/food-list.component';
 import { NewFoodDialogComponent } from './components/new-food-dialog/new-food-dialog.component';
+import { FoodMaintainerRoutingModule } from './food-maintainer-routing.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 
@@ -16,7 +18,9 @@ import { NewFoodDialogComponent } from './components/new-food-dialog/new-food-di
     FoodMaintainerComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FoodMaintainerRoutingModule,
+    SharedModule
   ]
 })
 export class FoodMaintainerModule { }

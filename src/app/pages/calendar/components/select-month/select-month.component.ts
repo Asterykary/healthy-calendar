@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class SelectMonthComponent {
 
+  public iconBackClicked() {
+    console.log('ICON BACK CLICKED');
+  }
+
+  public iconForwardClicked() {
+    console.log('ICON FORWARD CLICKED');
+  }
+
 }
