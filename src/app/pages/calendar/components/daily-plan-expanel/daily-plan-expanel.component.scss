@@ -1,0 +1,28 @@
+.daily-plan-expanel-div {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.daily-plan-expanel-accordion .daily-plan-expansion-panel {
+    width: 60%;
+    margin-left: 100px;
+    /*margin-top: 40px;*/
+}
+.daily-plan-expanel-accordion .daily-plan-expansion-panel .daily-plan-expansion-title {
+   color: #272F1F;
+   font-size: 12px;
+   font-weight: 400;
+}
+.daily-plan-expanel-accordion .daily-plan-expansion-panel .daily-plan-expansion-title .daily-plan-expanel-icon {
+    color: #435B1D;
+    margin-left: 10px;
+}
+.daily-plan-expanel-div .daily-plan-expansion-panel .daily-plan-expanel-edit {
+    text-decoration: underline;
+    margin: 3px;
+    color: #3C5C0D;
+}
+.daily-plan-expanel-div .daily-plan-expansion-panel .daily-plan-expanel-delete {
+    text-decoration: underline;
+    margin: 3px;
+    color: #CF451A;
+}

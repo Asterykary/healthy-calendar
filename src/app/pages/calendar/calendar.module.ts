@@ -9,6 +9,10 @@ import { SharedModule } from '../../shared/shared.module';
 import { CalendarRoutingModule } from './calendar-routing.module';
 import {MatIconModule} from '@angular/material/icon';
 
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -26,7 +30,13 @@ import {MatIconModule} from '@angular/material/icon';
     CommonModule,
     CalendarRoutingModule,
     SharedModule,
-    MatIconModule
+    MatIconModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatCheckboxModule,
+    FormsModule
   ],
 })
-export class CalendarModule { }
+export class CalendarModule { 
+  
+}
