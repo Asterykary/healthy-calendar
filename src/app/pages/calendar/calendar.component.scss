@@ -1,0 +1,10 @@
+.calendar-container {
+    margin: 0px 80px;
+    display: flex;
+    app-daily-plan-expanel {
+        width: 100%;
+    }
+    app-datepicker {
+        margin-left: 40px;
+    }
+}

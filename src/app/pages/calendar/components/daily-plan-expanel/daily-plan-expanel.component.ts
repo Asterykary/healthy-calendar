@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DailyPlanExpanelComponent {
   panelOpenState = false;
-  color:string = "warn";
+  color:string = "primary";
 
   public iconAddClicked() {
     console.log("Añadir alimento");
