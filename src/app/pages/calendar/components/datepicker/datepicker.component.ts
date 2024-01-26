@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './datepicker.component.scss',
 })
 export class DatepickerComponent {
-
+  selected: Date | null = new Date();
 }

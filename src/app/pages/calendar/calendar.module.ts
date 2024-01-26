@@ -13,6 +13,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {FormsModule} from '@angular/forms';
+import {MatCardModule} from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MAT_DATE_LOCALE, provideNativeDateAdapter } from '@angular/material/core';
 
 
 @NgModule({
@@ -34,8 +37,11 @@ import {FormsModule} from '@angular/forms';
     MatExpansionModule,
     MatFormFieldModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    MatCardModule,
+    MatDatepickerModule
   ],
+  providers: [provideNativeDateAdapter(), {provide: MAT_DATE_LOCALE, useValue: 'es-CL'}],
 })
 export class CalendarModule { 
   
